@@ -1,0 +1,18 @@
+{
+  "name": "frontend-siglo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "stylus -l -w ./src/stylus/style.styl -o ./style.css",
+    "css-min": "stylus -c -w ./src/stylus/style.styl -o ./style.css",
+    "sync": "browser-sync start --server --files \"*.css\" \"*.html\"  --no-open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "stylus": "^0.54.8"
+  }
+}
